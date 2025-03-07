@@ -1,0 +1,33 @@
+./momo \
+--serial /dev/pts/8,115200 \
+--video-device "usb-0000:00:15.0-7" \
+--resolution 640x480 \
+--use-sdl ayame \
+--signaling-url wss://ayame-labo.shiguredo.app/signaling \
+--room-id koyuki-avatar@koyuki1 \
+--signaling-key WTQLW9OdRi9ASuQ4eHH0dDpo4JnZ4-NvrSJj-mKa0I4UjgJI 
+
+./momo \
+--serial /dev/pts/4,115200
+--video-device "usb-0000:00:15.0-3" \
+ayame \
+--signaling-url wss://ayame-labo.shiguredo.app/signaling \
+--room-id koyuki-avatar@tests \
+--signaling-key WTQLW9OdRi9ASuQ4eHH0dDpo4JnZ4-NvrSJj-mKa0I4UjgJI 
+
+# memo
+koyuki@koyuki:~/momo/momo$ v4l2-ctl --list-devices
+Dummy video device (0x0000) (platform:v4l2loopback-000):
+	/dev/video4
+
+HD webcam-CMS-V43BK: HD webcam- (usb-0000:00:15.0-2.1):
+	/dev/video2
+	/dev/video3
+	/dev/media1
+
+HD webcam-CMS-V43BK: HD webcam- (usb-0000:00:15.0-3):
+	/dev/video0
+	/dev/video1
+	/dev/media0
+
+socat -d -d pty,raw,echo=0 pty,raw,echo=0
