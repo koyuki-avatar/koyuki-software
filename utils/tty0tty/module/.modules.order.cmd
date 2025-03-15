@@ -1,0 +1,1 @@
+savedcmd_/home/azuki/koyuki-software/utils/tty0tty/module/modules.order := {   echo /home/azuki/koyuki-software/utils/tty0tty/module/tty0tty.o; :; } > /home/azuki/koyuki-software/utils/tty0tty/module/modules.order
