@@ -1,1 +1,1 @@
-savedcmd_/home/azuki/koyuki-software/utils/tty0tty/module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/azuki/koyuki-software/utils/tty0tty/module/Module.symvers -T /home/azuki/koyuki-software/utils/tty0tty/module/modules.order -i Module.symvers -e 
+savedcmd_/home/komugi/koyuki-software/utils/tty0tty/module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/komugi/koyuki-software/utils/tty0tty/module/Module.symvers -T /home/komugi/koyuki-software/utils/tty0tty/module/modules.order -i Module.symvers -e 

@@ -19,3 +19,16 @@
     ```bash
     chmod +x *.sh
     ```
+    
+- ros2 related:
+
+```
+sudo apt install joystick
+sudo apt install ros-jazzy-joyz*
+```
+
+- momo related:
+
+```
+sudo apt install libva2 libva-drm
+```
